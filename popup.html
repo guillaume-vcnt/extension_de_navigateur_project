@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Logo/MagicBox.png"/>
+    <link rel="stylesheet" href="popup.css">
+    <title>Magic Box</title>
+    <script src="content.js" defer></script>
+    <script src="default-settings.js" defer></script>
+    <script src="reset.js" defer></script>
+    <script src="storage.js" defer></script>
+</head>
+
+<body>
+
+<div class="MagicBox-container"> 
+
+<div class="banner-container">
+    
+  <!-- <label for="magicBox-title"><img id="MagicBox-logo" src="Logo/MagicBox.png"></label> -->
+  <h1 id="magicBox-title" name="magicBox-title">Magic Box</h1>
+
+</div>
+
+    <form class="button-container">
+
+    <div class="switch-options">
+        <label for="remover" class="name-button">Magic remover</label>
+        <input class="switch-button" type="checkbox" id="remover" name="remover"></input>
+    </div>
+
+    <div class="select-options">
+     <label for="font" class="name-button">Change font</label>
+     <select id="font">
+        <option value="default" id="default" class="select">Default</option>
+        <option value="OpenDyslexic" id="OpenDyslexic" class="select">Open-Dyslexic</option>
+        <option value="Lexia" id="Lexia" class="select">Lexia</option>
+        <option value="Roboto" id="Roboto" class="select">Roboto</option>
+        <option value="Signika" id="Signika" class="select">Signika</option>
+     </select>
+    </div>
+
+    <div class="range-options">
+        <label for="font-size" class="name-button">Font size</label>
+        <input class="range-button" type="range" min="-20" max="100" step="10" id="font-size" name="font-size"></input>
+    </div>
+
+    <div class="range-options">
+        <label for="line-height" class="name-button">Line height</label>
+        <input class="range-button" type="range" min="1" max="51" step="10" id="line-height" name="line-height"></input>
+    </div>
+
+    <div class="range-options">
+        <label for="letter-spacing" class="name-button">Letter spacing</label>
+        <input class="range-button" type="range" min="0" max="8" value="0" step="1" id="letter-spacing" name="letter-spacing"></input>
+    </div>
+    
+    <div class="reset-options">
+        <input type="reset" class="reset-button" value="Back to default settings" id="reset"></input>
+    </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
