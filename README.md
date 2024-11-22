@@ -5,7 +5,7 @@ Ce projet a pour objectif de développer une extension sur le navigateur Chrome,
 
 ## Caractéristiques
 
-État du projet : Prototype
+État du projet : Terminé
 
 Nombre de participants : 3
 
