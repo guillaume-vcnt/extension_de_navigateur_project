@@ -18,7 +18,7 @@ UI/UX : Non
 
 IDE : VSCode
 
-OS : Windows 
+OS : Windows, Mac 
 
 ## Utilisation 
 
