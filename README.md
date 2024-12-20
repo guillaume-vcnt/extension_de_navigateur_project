@@ -1,6 +1,7 @@
-magic_text
+Magic Text
 
-## À propos 
+## À propos
+
 Ce projet a pour objectif de développer une extension sur le navigateur Chrome, permettant de modifier le texte d'un site web.
 
 ## Caractéristiques
@@ -11,7 +12,7 @@ Nombre de participants : 3
 
 Technologies : JavaScript, HTLM, CSS
 
-Refactorisé : Non 
+Refactorisé : Non
 
 UI/UX : Non
 
@@ -24,4 +25,5 @@ OS : Windows
 S'exécute via l'extension du navigateur Chrome 
 
 ## Sources
+
 chrome.tabs API from https://developer.chrome.com
