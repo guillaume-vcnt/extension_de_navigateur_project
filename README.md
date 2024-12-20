@@ -12,7 +12,7 @@ Nombre de participants : 3
 
 Technologies : JavaScript, HTLM, CSS
 
-Refactorisé : Non
+Refactorisation : Non
 
 UI/UX : Non
 
